@@ -28,6 +28,7 @@ message HelloRequest {
   }
   test ones = 2;
   google.protobuf.FieldMask field_mask = 3;
+  string test_submodule = 4;
 }
 
 // The response message containing the greetings
